@@ -1,1 +1,1 @@
-
+To set up your project, connect the DHT11 data wire to GPIO 23, then open the Serial Monitor at 115200 baud and type "W" to pair your WiFi before adding the accessory to the Apple Home App using the pairing code 466-37-726.
