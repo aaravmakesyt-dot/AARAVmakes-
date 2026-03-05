@@ -2,9 +2,9 @@
 #include "DHT.h"
 
 // Pin Assignments
-#define DHTPIN 23       // Data wire on GPIO 23
-#define DHTTYPE DHT11   // Blue sensor
-#define STATUS_LED 2    // Built-in LED on GPIO 2
+#define DHTPIN 23       
+#define DHTTYPE DHT11 
+#define STATUS_LED 2  
 
 DHT dht(DHTPIN, DHTTYPE);
 
@@ -13,7 +13,7 @@ struct TempSensor : Service::TemperatureSensor {
   SpanCharacteristic *temp;
   
   TempSensor() : Service::TemperatureSensor() {
-    temp = new Characteristic::CurrentTemperature(22); // Default 22°C
+    temp = new Characteristic::CurrentTemperature(22); 
     temp->setRange(-40, 100); 
   }
 
@@ -27,7 +27,7 @@ struct TempSensor : Service::TemperatureSensor {
   }
 };
 
-// Humidity Sensor Logic
+
 struct HumSensor : Service::HumiditySensor {
   SpanCharacteristic *hum;
   
@@ -56,20 +56,20 @@ void setup() {
   // Define the Accessory
   new SpanAccessory();  
     new Service::AccessoryInformation();
-      new Characteristic::Name("Desk Weather");
-      new Characteristic::Manufacturer("DIY-Gemini");
+      new Characteristic::Name("Weather Station");
+      new Characteristic::Manufacturer("AARAV MAKES YT");
       new Characteristic::SerialNumber("ESP32-001");
       new Characteristic::Identify();
     
-    // Add the sensor services to this accessory
+ 
     new TempSensor();
     new HumSensor();
 }
 
 void loop() {
-  homeSpan.poll(); // Keeps HomeKit connection alive
+  homeSpan.poll(); 
   
-  // Your 1-second blink heartbeat
+  //1-second blink heartbeat
   static uint32_t lastBlink = 0;
   if (millis() - lastBlink > 1000) {
     digitalWrite(STATUS_LED, !digitalRead(STATUS_LED));
