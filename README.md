@@ -1,8 +1,14 @@
 # AARAVmakes-
 Codes for projects on the AARAVmakes YT channel and website
 
+
 Check out my channel!
 https://www.youtube.com/channel/UChxcz8P3SYQ16HpQ0qElhLA
+
+
+Check out my website for project tutorials, some more code, and build/info guides!
+https://sites.google.com/view/aaravmakes/project-tutorials
+
 
 TABLE OF CONTENTS!  
 
