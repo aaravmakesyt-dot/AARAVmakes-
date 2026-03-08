@@ -1,8 +1,8 @@
 # AARAVmakes-
-Codes for projects on the AARAVmakes YT channel and website
+Codes for projects on the AARAVmakes Youtube channel and website
 
 
-Check out my channel!
+Check out my YT channel!
 https://www.youtube.com/channel/UChxcz8P3SYQ16HpQ0qElhLA
 
 
