@@ -20,16 +20,16 @@ When you touch the foil, your body capacitance changes the reading
 on GPIO 4, triggering the onboard LED on GPIO 2.
 
 Touch capable pins:
-GPIO 0
-GPIO 2
-GPIO 4 ← our code foil pin
-GPIO 12
-GPIO 13
-GPIO 14
-GPIO 15
-GPIO 27
-GPIO 32
-GPIO 33
+GPIO 0,
+GPIO 2,
+GPIO 4 ← our code foil pin,
+GPIO 12,
+GPIO 13,
+GPIO 14,
+GPIO 15,
+GPIO 27,
+GPIO 32,
+GPIO 33,
 
 ## Usage
 1. Upload the code
