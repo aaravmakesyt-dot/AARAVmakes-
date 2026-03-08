@@ -18,7 +18,7 @@ you're in the right place!
 ### #1 — Native Apple HomeKit Temperature & Humidity Sensor
 > ESP32 + DHT11 + HomeSpan — No Homebridge, No Hub, No Raspberry Pi
 
-📁 [View Code](https://github.com/aaravmakesyt-dot/AARAVmakes-/tree/18d994b275f924d5c4cd9389f79443c7c244dc10/HomeKit-Weather-Station)
+📁 [View Code & guide](https://github.com/aaravmakesyt-dot/AARAVmakes-/tree/18d994b275f924d5c4cd9389f79443c7c244dc10/HomeKit-Weather-Station)
 🎬 Video coming soon!
 
 ---
