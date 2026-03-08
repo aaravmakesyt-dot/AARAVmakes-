@@ -24,7 +24,7 @@ you're in the right place!
 ---
 
 ### #2 — ESP32 Capacitive Touch Pins
-> Hidden feature most makers don't know about — turn any GPIO into a touch sensor with just a piece of foil!
+> Hidden feature most makers don't know about — turn almost any GPIO into a touch sensor with just a piece of foil!
 
 📁 [View Code & Guide](ESP32%20capacitive%20touch%20pins/README.md)
 🎬 [Watch Video](https://www.youtube.com/watch?v=0JiCZEFWqxs)
