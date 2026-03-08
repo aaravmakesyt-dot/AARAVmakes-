@@ -3,7 +3,7 @@
 Turn any ESP32 GPIO into a touch sensor using just a piece of foil!
 
 ## [Watch the Video](https://www.youtube.com/watch?v=0JiCZEFWqxs)
-Code -> (https://github.com/aaravmakesyt-dot/AARAVmakes-/blob/main/ESP32%20capacitive%20touch%20pins/ESP32%20capacitive%20Touch%20Pins.ino)
+📁 [View Code](https://github.com/aaravmakesyt-dot/AARAVmakes-/blob/main/ESP32%20capacitive%20touch%20pins/ESP32%20capacitive%20Touch%20Pins.ino)
 
 ## Hardware
 - ESP32 Dev Board
